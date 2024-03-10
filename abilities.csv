@@ -1,31 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Cooldowndle</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=0, user-scalable=no">
-
-    <link rel="stylesheet" href="cooldowndle.css">
-</head>
-<body>
-    <h1 id="title">Cooldowndle</h1>
-    <hr>
-    <br>
-    <div id="image">
-
-    </div>
-    <div id="board">
-        <span>
-            <p class="guess"></p>
-            <p class="guess"></p>
-            <p class="guess"></p>
-            <p class="guess"></p>
-            <p class="guess"></p>
-        </span>
-        <input id="input" type="number"/>
-        <button id="confirm" onclick="confirm()"></button>
-    </div>
-    <div id="data">
 Deathbringer Stance;24
 The Darkin Blade;14
 Infernal Chains;20
@@ -756,11 +728,4 @@ Garden of Thorns;13.5
 Deadly Spines;7
 Rampant Growth;18
 Grasping Roots;12
-Stranglethorns;110</div>
-    <br>
-    <h1 id="answer">
-
-    </h1>
-    <script src="cooldowndle.js"></script>
-</body>
-</html>
+Stranglethorns;110
