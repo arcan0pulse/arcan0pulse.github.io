@@ -18,17 +18,42 @@ hr {
     height: fit-content;
     margin: 0 auto;
     margin-top: 3px;
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: 1fr 5fr;
     flex-wrap: wrap;
+}
+
+#data {
+    display: none;
+}
+
+#confirm,#input {
+    height: 25px;
+    margin-top: 10px;
+    grid-column: span 2;
 }
 
 .guess {
     height: 25px;
     width: 350px;
-    border:1px solid black
+    border:1px solid black;
+    font-size: large;
+    display: flex;
+    align-content: center;
 }
 
-#data {
-    display: none;
+.arrow {
+    font-size: large;
+}
+
+.abilityname {
+    height: 50px
+}
+
+.uparrow::before {
+    content:"↑";
+    align-self: start;
+}
+.downarrow::before {
+    content:"↓";
 }

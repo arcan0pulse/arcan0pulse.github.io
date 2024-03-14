@@ -32,7 +32,7 @@ Glacial Storm;4
 Disintegrate;4
 Incinerate;8
 Molten Shield;12
-Summon: Tibbers;130
+Summon Tibbers;130
 Moonshot;10
 Onslaught;10
 Binding Eclipse;12
@@ -46,7 +46,7 @@ Enchanted Crystal Arrow;100
 Breath of Light;3
 Astral FLight;22
 Singularity;12
-Falling Star/The Skies Descend;120
+Falling Star;120
 Conquering Sands;14
 Arise!;10
 Shifting Sands;22
@@ -75,7 +75,7 @@ Stand Behind Me;12
 Unbreakable;16
 Glacial Fissure;120
 Head Rush;13
-Blood Frenzy/Snack Attack;14
+Blood Frenzy;14
 Chilling Scream;18
 Certain Death;120
 Piltover Peacemaker;10
@@ -125,7 +125,7 @@ Chronobreak;110
 Neurotoxin;6
 Volatile Spiderling;12
 Cocoon;12
-Spider Form / Human Form;4
+Spider Form;4
 Venomous Bite;6
 Skittering Frenzy;10
 Rappel;22
@@ -149,7 +149,7 @@ Bladework;11
 Grand Challenge;110
 Urchin Strike;8
 Seastone Trident;7
-Playful / Trickster;16
+Playful Trickster;16
 Chum the Waters;100
 Colossal Smash;5
 Winds of War;12
@@ -193,7 +193,7 @@ Onslaught of Shadows;140
 H-28 G Evolution Turret;20
 Hextech Micro-Rockets;11
 CH-2 Electron Storm Grenade;11
-UPGRADE!!!100
+UPGRADE!!!;100
 Subject: Disaster;10
 Subject: Serenity;18
 Subject: Torment;12
@@ -412,10 +412,10 @@ Undertow;9
 Tough it Out;16
 Reckless Swing;11
 Ragnarok;100
-Command: Attack;6
-Command: Dissonance;7
-Command: Protect;9
-Command: Shockwave;110
+Command Attack;6
+Command Dissonance;7
+Command Protect;9
+Command Shockwave;110
 Volcanic Rupture;9
 Bellows Breath;12
 Searing Charge;16
@@ -434,7 +434,7 @@ Ghostwater Dive;12
 Phantom Undertow;15
 Death From Below;100
 Royal Privilege;25
-Elemental Wrath / Edge of Ixtal;7
+Edge of Ixtal;7
 Terrashape;7
 Audacity;11
 Supreme Display of Talent;120
@@ -559,7 +559,7 @@ Nevermove;10
 Demonic Ascension;100
 Chain Lash;11
 Kingslayer;12
-Abscond / Abduct;13
+Abscond;13
 Hijack;80
 Dark Sphere;7
 Force of Will;12
