@@ -12,11 +12,12 @@ function intialize() {
     image.src = "icons/" + name + ".webp";
     document.getElementById("image").append(image);
     document.getElementById("abilityname").innerText = name;
-    document.getElementById("input").addEventListener(e => confirm());
+    document.getElementById("input").addEventListener("keypress", e => enter(e));
 }
 
-function confirm() {
+function confirm(event) {
     let guess = document.getElementById("input").value;
+    document.getElementById("input").value = "";
     if (+guess == guess) {
         let textfield = document.querySelectorAll(".guess")[attempts];
         textfield.innerText = guess;
@@ -32,6 +33,10 @@ function confirm() {
         }
     }
     if (attempts == 5) defeat();
+}
+
+function enter(event) {
+    if (event.key == "Enter") confirm();
 }
 
 function defeat() {
