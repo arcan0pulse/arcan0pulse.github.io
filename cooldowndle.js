@@ -12,6 +12,7 @@ function intialize() {
     image.src = "icons/" + name + ".webp";
     document.getElementById("image").append(image);
     document.getElementById("abilityname").innerText = name;
+    document.getElementById("input").addEventListener(e => confirm());
 }
 
 function confirm() {
