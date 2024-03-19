@@ -12,12 +12,13 @@
     <div id="mainpage">
         <header id="siteheader">
             <div id="headercontainer">
-                <button id="info" data-overlay="info-overlay" type="button">?</button>
-                <h1 id="title">Guess the Cooldown!</h1>
+                <button id="info-button" data-overlay="info-overlay" type="button" onaction="switchInfo()">?</button>
             </div>
         </header>
         <main id="game-container">
-            <div id="infocard">
+            <div id="image-card">
+                <div id="timer" style="visibility:hidden"></div>
+                <h1 id="title">Guess the Cooldown!</h1>
                 <div id="image-container">
                     <img id="ability-image">
                 </div>
@@ -36,6 +37,20 @@
                 <div id ="input-container" class="answer-style transparent-background">
                     <input id="answer-input" type="text" placeholder="Enter your guess">
                     <button id="guess-button" class="active">Submit</button>
+                </div>
+            </div>
+            <div id="info-container" style="display: none">
+                <div id="info-section">
+                    <h2>The Game</h2>
+                    <br>
+                    <p>Guess the cooldown of this League of Legends ability in four tries.</p>
+                    <br>
+                    <p>After submitting a guess, an arrow will reveal whether the answer is higher, or lower.</p>
+                    <br>
+                    <p>A new game will be available every day.</p>
+                    <p>Last update: Patch 14.5</p>
+                    <br>
+                    <p>You can close this message by clicking the Info button again.</p>
                 </div>
             </div>
         </main>

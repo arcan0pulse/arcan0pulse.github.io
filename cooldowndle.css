@@ -13,10 +13,14 @@
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
     font-size: 30px;
-    background-color: lightgray;
+    background: url("./background.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 #game-container {
@@ -31,17 +35,24 @@ body {
 }
 
 #title {
-    margin-top:20px;
+    margin-block:20px;
 }
 
-#info {
+#info-button {
     width:30px;
     height:40px;
     font-size:25px;
-    background:none;
+    margin-top: 10px;
+    background-color: rgba(255, 255, 255, 0.55);
+    border-radius: 5px;
+    border: 1px solid black;
 }
 
-#infocard {
+#info-button:hover {
+    background-color: rgba(173, 173, 173, 0.55);
+}
+
+#image-card {
     display:flex;
     align-items: center;
     flex-direction: column;
@@ -49,7 +60,7 @@ body {
     margin-bottom: 24px;
     padding: 12px;
     border-radius: 8px;
-    background-color: rgb(173, 173, 173);
+    background-color: rgba(173, 173, 173, 0.55);
     box-shadow: 0 3px 10px;
 }
 
@@ -105,9 +116,9 @@ body {
     font-size:24px;
     width:245px;
     height:40px;
-    color:white;
+    color:black;
     border-radius: 5px;
-    background-color: gray;
+    background-color: white;
     border:1px solid black;
     margin-right: 2px;
     padding-left: 8px;
@@ -117,6 +128,25 @@ body {
     font-size:24px;
     width:95px;
     height:40px;
+}
+
+#info-container {
+    display:flex;
+    position:absolute;
+    z-index: 1;
+    align-items: start;
+    justify-content: center;
+    width: fit-content;
+    height: fit-content;
+    padding: 10px;
+    background-color:rgb(173, 192, 255);
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+#info-section {
+    width:550px;
+    height:100%;
 }
 
 .answer-style {
@@ -283,5 +313,5 @@ body {
 }
 
 .hide {
-    display:none;
+    visibility: hidden;
 }
