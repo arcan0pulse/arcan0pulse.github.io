@@ -32,6 +32,7 @@ function intialize() {
     if (gameState.gameNumber !== gameNumber) {
         gameState.gameNumber = gameNumber;
         gameState.guesses = [];
+        gameState.hasWon = false;
         localStorage.setItem("state", JSON.stringify(gameState));
     } else {
          gameState.guesses.forEach(guess => {
