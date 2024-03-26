@@ -707,7 +707,7 @@ export const ABILITIES = [
 "Living Shadow;20",
 "Shadow Slash;5",
 "Death Mark;120",
-"Burst Fire;1.39",
+"Burst Fire;1",
 "Ultrashock Laser;12",
 "Spark Surge;24",
 "Lightning Crash;80",
